@@ -53,9 +53,6 @@ Output files:
 ```bash
 # Copy JAR to mods folder
 cp /sdcard/audio-shim.jar /path/to/mods/
-
-# Copy .so to JVM library path (MojoLauncher)
-su -c "cp /sdcard/libaudioshim.so /data/data/git.artdeell.mojo/files/libaudioshim.so"
 ```
 
 ## Author
