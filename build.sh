@@ -44,6 +44,7 @@ echo "[*] Packaging JAR..."
 cp -r "$SCRIPT_DIR/META-INF" "$OUT/"
 cp "$SCRIPT_DIR/resources/mcmod.info" "$OUT/mcmod.info"
 cp "$SCRIPT_DIR/resources/fabric.mod.json" "$OUT/fabric.mod.json"
+cp "$SCRIPT_DIR/META-INF/neoforge.mods.toml" "$OUT/META-INF/neoforge.mods.toml"
 mkdir -p "$OUT/natives"
 cp "$SO" "$OUT/natives/libaudioshim.so"
 

@@ -17,7 +17,7 @@ The native library (`libaudioshim.so`) is bundled inside the JAR and extracted a
 - arm64-v8a architecture
 - MojoLauncher or PojavLauncher
 - Minecraft 1.12.2+
-- Forge or Fabric
+- Forge, NeoForge, or Fabric
 
 ## Installation
 
@@ -25,7 +25,7 @@ The native library (`libaudioshim.so`) is bundled inside the JAR and extracted a
 2. Launch Minecraft
 3. Open Simple Voice Chat settings and select the new microphone source
 
-> The mod will not appear in the mod list - this is expected behavior.
+> The shim may not appear in the mod list on older Forge/Fabric versions - this is expected behavior.
 
 To remove the native library error messages in chat, open `voicechat-client.properties` and set `use_natives=false`.
 

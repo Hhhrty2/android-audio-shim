@@ -1,0 +1,27 @@
+modLoader="javafml"
+loaderVersion="[1,)"
+license="MIT"
+
+[[mods]]
+modId="audioshim"
+version="1.0.1"
+displayName="Android Audio Shim"
+authors="GRED"
+displayTest="IGNORE_ALL_VERSION"
+description='''Enables Simple Voice Chat on Android (MojoLauncher/PojavLauncher).
+Compatible with Forge, NeoForge, and Fabric, Minecraft 1.12.2+.
+Provides a Java Sound mixer backed by Android native audio APIs.'''
+
+[[dependencies.audioshim]]
+modId="minecraft"
+type="required"
+versionRange="[1.12.2,)"
+ordering="NONE"
+side="CLIENT"
+
+[[dependencies.audioshim]]
+modId="neoforge"
+type="required"
+versionRange="[1,)"
+ordering="NONE"
+side="CLIENT"
